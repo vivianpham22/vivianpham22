@@ -27,8 +27,8 @@ html {
     font-size: 100%; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */ 
-
 }
+
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
@@ -215,56 +215,49 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 .pull { display: none; }
 
 /* ==========================================================================
-Hero
+HERO / TOP OF PAGE
 ========================================================================== */
 .hero { 
-    background: url('../img/sanfran.jpeg') no-repeat center center; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+    background: url('../img/city.jpeg') no-repeat center center; 
     background-size: cover; 
     padding: 65px 0 300px 0; 
     height: auto; 
 }
 
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
-.hero h1 span { color: #a1a9b0; display: inline-block; }
+.hero h1 span { 
+    color: /*#ededed;*/ #a1a9b0;
+    display: inline-block; 
+
+}
 .hero p { letter-spacing: 1px; }
-.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
+
+
 /* ==========================================================================
-Intro
+ABOUT ME
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 50px 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+
 /* ==========================================================================
-Features
+WHAT DO I DO ?!?!?
 ========================================================================== */
 .features-wrapper, .team-wrapper { margin: 70px 0 0; }
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
-/* ==========================================================================
-iPhone Section
-========================================================================== */
-.iphone { width: 50%; background: #f3f5f8; float: left; height: 100%; box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset -15px -11px 40px -6px rgba(0, 0, 0, 0.1); z-index: 1; }
-.fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
-.responsive-services { position: relative; }
 
 
 /* ==========================================================================
-Swag
+BEGINNING OF CHECK OUT WHAT I CAN DO
 ========================================================================== */
 .swag { 
     background: url('../img/code.png') no-repeat center center; 
-    /*-webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover;*/ 
     background-size: cover; 
     background-attachment: fixed; 
     padding: 90px 0 100px; 
-
 }
+
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { 
@@ -273,7 +266,6 @@ Swag
     border-radius: 50%; 
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
-    -o-border-radius: 50%; 
     background: rgba(61, 201, 179, 0.8); 
     display: inline-block; 
     margin: 10px auto 20px; 
@@ -284,6 +276,7 @@ Swag
 
 }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
+
 /* ==========================================================================
 Portfolio
 ========================================================================== */
@@ -301,17 +294,15 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
 .overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
 .overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
-.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.img img { width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+
 /* ==========================================================================
-Subscribe
+BEGINNING OF GET IN CONTACT SECTION 
 ========================================================================== */
 .subscribe { 
     background: url('../img/keyboard-bg.jpg') no-repeat center center; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
     background-size: cover; 
     background-attachment: fixed; 
     padding: 90px 0 100px; 
@@ -325,21 +316,16 @@ Subscribe
     font-weight: bold; 
     margin-top: 20px; 
     letter-spacing: 1px; 
-
 }
+
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
 .subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgba(61, 201, 179, 1); border: solid 1px rgba(61, 201, 179, 1); color: #fff; }
+
+
 /* ==========================================================================
-CTA
+SOCIAL MEDIA BUTTON
 ========================================================================== */
-.ignite-cta { background-color: #242830; padding: 70px 0; }
-.ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
-.ignite-btn:hover, .ignite-btn:focus { color: #3dc9b3; border: solid 1px #3dc9b3; }
-/* ==========================================================================
-Team
-========================================================================== */
-.team img { margin-bottom: 40px; }
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
@@ -348,7 +334,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 .social { margin-top: 25px }
 
 /* ==========================================================================
-Contact
+CoONTACT GOING UP BOTTON
 ========================================================================== */
 .up-btn { 
     width: 50px; 
@@ -356,7 +342,6 @@ Contact
     border-radius: 50%; 
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
-    -o-border-radius: 50%; 
     background: rgba(61, 201, 179, 0.5); 
     display: block; margin: 0 auto; 
     color: #fff; 
@@ -406,6 +391,7 @@ FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
 ul.slides li { margin-bottom: 20px; }
+
 /* ==========================================================================
 Waypoints
 ========================================================================== */
