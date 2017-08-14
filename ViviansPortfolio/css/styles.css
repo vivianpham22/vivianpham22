@@ -217,6 +217,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 HERO / TOP OF PAGE
 ========================================================================== */
+/*This is a comment*/
 .hero { 
     background: url('../img/sanfran.jpeg') no-repeat center center; 
     background-size: cover; 
